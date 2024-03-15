@@ -1,3 +1,4 @@
+oop 개념, solid원칙
 # kotlinGrammar-Project
 
 
