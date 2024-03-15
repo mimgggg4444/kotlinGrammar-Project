@@ -10,7 +10,7 @@ downTo -> 위에서 아래로 계산
 
 var - 변수, val - 상수
 
-```
+```kotlin
 Int, Long, Float, Double, Boolean, Char, String
 
 val grade = if (score >= 90) "A" else if (score >= 80) "B" else "C"
@@ -35,14 +35,14 @@ while (i <= 5) {
 
 이뮤터블(immutable)은 변경할 수 없는 상태를
 
-```
+```kotlin
 // 인터페이스 정의
 interface Shape {
     // 추상 메서드 선언
     fun area(): Double
 }
 ```
-```
+```kotlin
 // Circle 클래스가 Shape 인터페이스를 구현하는 예시
 class Circle(val radius: Double) : Shape {
     // Shape 인터페이스의 추상 메서드 구현
